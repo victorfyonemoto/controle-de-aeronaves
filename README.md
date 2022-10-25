@@ -19,3 +19,5 @@ O algoritmo contém as seguintes regras
 - Se o trecho total mais a margem de segurança, extrapolarem a capacidade máxima de combustível do tanque da aeronave, uma mensagem de alerta deve ser mostrada na tela, dizendo a seguinte mensagem “Voo Reprovado, reveja seu planejamento.”. Caso contrário mostrar "Voo Aprovado, bom voo!"
 - Se o tanque suportar o trecho total mais a margem de segurança o algoritmo deverá mostrar na tela o valor do trecho principal, trecho alternativo, total do trecho com a margem de segurança, quantidade de combustível necessária para o trecho e quantidade necessária de abastecimento.
 - Use sub-rotinas para isolar as lógicas do algoritmo
+
+O algoritmo foi desenvolvido e testado no VisuAlg 3.0 utilizando-se de pseudocódigo.

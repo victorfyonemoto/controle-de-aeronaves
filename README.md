@@ -4,7 +4,7 @@
 
 Um Boeing 737-800 por exemplo, pode gastar em média 3,6 litros por km de voo. O gasto de uma aeronave de grande porte é tanto que a medição muda de eixo, sendo utilizado litros por quilômetros, diferente do que estamos acostumados a calcular nos automóveis que é quilômetros por litro. Um trecho de 1100km, como por exemplo de São Paulo a Porto Alegre precisaria de 3960 litros, sem contar a margem de segurança e outos fatores que podem alterar a quantidade.
 
-Para criação do algoritmo serão considerados os seguintes dados para o calculo desejado, são eles:
+Para criação do algoritmo foram considerados os seguintes dados para o calculo desejado, são eles:
 
 - Média da aeronave em litros por quilômetros
 - Capacidade máxima em litros do tanque

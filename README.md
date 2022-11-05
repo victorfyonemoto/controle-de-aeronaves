@@ -12,7 +12,7 @@ Para criação do algoritmo foram considerados os seguintes dados para o calculo
 - Quantidade de quilômetros do trecho alternativo
 - Quantidade de combustível já na aeronave
     
-O algoritmo contém as seguintes regras
+O algoritmo contém as seguintes regras:
 
 - Uma aeronave deve sempre ser abastecida considerando o trecho planejado + trecho alternativo, visto que se o aeroporto de destino estiver com problemas, uma rota alternativa deverá ser realizada.
 - Além do trecho total, uma margem de 30% de combustível deverá ser adicionada, para que qualquer emergência a aeronave esteja com uma quantidade segura de combustível.
@@ -20,7 +20,7 @@ O algoritmo contém as seguintes regras
 - Se o tanque suportar o trecho total mais a margem de segurança o algoritmo deverá mostrar na tela o valor do trecho principal, trecho alternativo, total do trecho com a margem de segurança, quantidade de combustível necessária para o trecho e quantidade necessária de abastecimento.
 - Sub-rotinas para isolar as lógicas do algoritmo
 
-Sequencia lógica do algoritmo
+Sequencia lógica do algoritmo:
 
 - Leitura dos dados
 - Somar trecho planejado + trecho alternativo

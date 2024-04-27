@@ -1,5 +1,9 @@
 # Algoritmo para controle de abastecimento de aeronaves
 
+<p align="center">
+  <img alt="projeto DevLinks" src="./controledeaeronaves.png" width="100%">
+</p>
+
 ## Neste repositório está a minha solução para a criação de um algoritmo de controle de abastecimento de aeronaves seguindo os seguintes critérios e instruções:
 
 Um Boeing 737-800 por exemplo, pode gastar em média 3,6 litros por km de voo. O gasto de uma aeronave de grande porte é tanto que a medição muda de eixo, sendo utilizado litros por quilômetros, diferente do que estamos acostumados a calcular nos automóveis que é quilômetros por litro. Um trecho de 1100km, como por exemplo de São Paulo a Porto Alegre precisaria de 3960 litros, sem contar a margem de segurança e outos fatores que podem alterar a quantidade.

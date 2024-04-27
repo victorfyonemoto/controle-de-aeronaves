@@ -1,7 +1,7 @@
 # Algoritmo para controle de abastecimento de aeronaves
 
 <p align="center">
-  <img alt="projeto DevLinks" src="./controledeaeronaves.png" width="100%">
+  <img alt="projeto DevLinks" src="./controledeaeronaves.png" width="60%">
 </p>
 
 ## Neste repositório está a minha solução para a criação de um algoritmo de controle de abastecimento de aeronaves seguindo os seguintes critérios e instruções:

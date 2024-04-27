@@ -3,7 +3,7 @@ Algoritmo "Controle de Abastacimento de Aeronaves"
 // Autor(a)    : Victor Ferreira Yonemoto
 
 Var
-// Seção de Declarações das variáveis 
+// Seção de Declarações das variáveis
 media, capacidade, trechoP, trechoA, qtdTanque: real
 trechoT, combustivelT, combustivelTM, qtdAbastecer: real
 
@@ -16,19 +16,33 @@ Inicio
 escreval("========================================================")
 escreval("|        Controle de Abastecimento de Aeronaves        |")
 escreval("========================================================")
-escreval("Informe a média da aeronave em litros por quilômetros")
-leia(media)
-escreval("Informe a capacidade máxima em litros do tanque")
-leia(capacidade)
-escreval("Informe a quantidade de quilômetros do trecho planejado")
-leia(trechoP)
-escreval("Informe a quantidade de quilômetros do trecho alternativo")
-leia(trechoA)
-escreval("Informe a quantidade de combustível já na aeronave")
-leia(qtdTanque)
-LimpaTela
-controle()
-repetir()
+escreval("Gostaria de realizar um cálculo de controle ?")
+escreval("[1] - Realizar controle")
+escreval("[2] - Sair")
+leia(opcao)
+Escolha opcao
+        caso 1
+            escreval("Informe a média da aeronave em litros por quilômetros")
+            leia(media)
+            escreval("Informe a capacidade máxima em litros do tanque")
+            leia(capacidade)
+            escreval("Informe a quantidade de quilômetros do trecho planejado")
+            leia(trechoP)
+            escreval("Informe a quantidade de quilômetros do trecho alternativo")
+            leia(trechoA)
+            escreval("Informe a quantidade de combustível já na aeronave")
+            leia(qtdTanque)
+            LimpaTela
+            controle()
+            repetir()
+         caso 2
+            escreval("Sair")
+            Fimalgoritmo
+         OutroCaso
+           LimpaTela
+           escreval("Digite um valor válido")
+           repetir()
+Fimescolha
 FimProcedimento
 
 Procedimento controle()
@@ -60,7 +74,7 @@ FimProcedimento
 
 Procedimento repetir()
 Inicio
-escreval("Gostaria de realizar um novo cálculo de controle ?")
+escreval("Gostaria de realizar um cálculo de controle ?")
 escreval("[1] - Realizar controle")
 escreval("[2] - Sair")
 leia(opcao)
@@ -81,6 +95,6 @@ Fimescolha
 FimProcedimento
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// Seção de Comandos, procedimento, funções, operadores, etc...
 menu()
 Fimalgoritmo

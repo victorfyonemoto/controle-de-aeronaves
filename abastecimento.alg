@@ -1,4 +1,5 @@
 Algoritmo "Controle de Abastacimento de Aeronaves"
+// Disciplina   : [Linguagem e Lógica de Programação]
 // Descrição   : Algoritmo para controle de abastecimento das aeronaves antes dos voos.
 // Autor(a)    : Victor Ferreira Yonemoto
 

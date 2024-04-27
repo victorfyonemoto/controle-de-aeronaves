@@ -1,5 +1,5 @@
 Algoritmo "Controle de Abastacimento de Aeronaves"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e Lógica de Programação] 
 // Descrição   : Algoritmo para controle de abastecimento das aeronaves antes dos voos.
 // Autor(a)    : Victor Ferreira Yonemoto
 
@@ -35,14 +35,14 @@ Escolha opcao
             leia(qtdTanque)
             LimpaTela
             controle()
-            repetir()
+            menu()
          caso 2
             escreval("Sair")
             Fimalgoritmo
          OutroCaso
            LimpaTela
            escreval("Digite um valor válido")
-           repetir()
+           menu()
 Fimescolha
 FimProcedimento
 
@@ -71,28 +71,6 @@ Fimse
 
 escreval("========================================================")
 
-FimProcedimento
-
-Procedimento repetir()
-Inicio
-escreval("Gostaria de realizar um cálculo de controle ?")
-escreval("[1] - Realizar controle")
-escreval("[2] - Sair")
-leia(opcao)
-
-Escolha opcao
-    caso 1
-        LimpaTela
-        menu()
-        repetir()
-    caso 2
-        escreval("Sair")
-        Fimalgoritmo
-    OutroCaso
-        LimpaTela
-        escreval("Digite um valor válido")
-        repetir()
-Fimescolha
 FimProcedimento
 
 Inicio
